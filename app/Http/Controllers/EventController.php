@@ -10,12 +10,17 @@ class EventController extends Controller
 
         $events = Event::all();
 
-        return view('welcome', ['events ' => $events] );
+        return view('welcome', ['events' => $events] );
 
 
     }
     public function create(){
         return view('events.create');
+    }
+
+    public function soma($a = 10,$b = 10){
+        $soma = $a + $b;
+        return $soma;
     }
 
 }

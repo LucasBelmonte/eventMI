@@ -5,7 +5,7 @@
 @section('content')
 <h1>Tela de produtos</h1>
 
-     {{$soma}}
+
 
 
 <a href="/">Voltar para home</a>
